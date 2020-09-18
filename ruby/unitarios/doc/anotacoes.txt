@@ -1,0 +1,41 @@
+comando do comando
+
+rspec - Ferramente de teste 
+
+instalação
+comando no cmd para instalar o rspec no projeto de automação ruby
+  -- rspec --init
+
+
+: comando para executar projeto e gerar relatórios
+dentro da pasta dos arquivos ruby
+
+comando:
+- rspec
+    roda todos os projetos ruby dentro da pasta, mas sem detalhamento. São exibidos (......) para cada teste criado.
+
+- rspec spec\nomearquivo_spec.rb
+    roda o arquivo específico, mas também sem detalhamento.
+
+- rspec spec\nomearquivo_spec.rb -fd
+    roda o arquivo específico mas atribuído ao comando -fd (com detalhamento).
+
+- rspec --format html --out resport.html
+    este comando executa o teste e no final gera um report no formato html dentro da pasta da pasta do projeto.
+
+: gerar relatórios no formato junit
+
+arquivo Gemfile
+
+adicionar 'rspec_junit_fomatter'
+
+no cmd, rodar o comando bundle install. Instalado as dependencias
+
+: CMD 
+
+rodar o comando:  
+- rspec --format RspecJunitFormater --out report.xml
+
+**é possível também gerar o report com o detalhamento do teste. Informando o (-fd) será detalhando o teste na tela do console + o report no formato xml ou html
+
+- rspec --format RspecJunitFormater --out report.xml -fd
