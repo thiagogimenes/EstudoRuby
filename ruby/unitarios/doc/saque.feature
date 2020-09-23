@@ -1,4 +1,4 @@
-Estória: Saque no Caixa Eletrônico
+Contexto: Saque no Caixa Eletrônico
     Sendo um cliente que é correntista do Ninja Bank
     Posso sacar dinheiro
     Para que eu consiga comprar em lugares que não aceitam débito ou crédito. (mesmo no século 21).

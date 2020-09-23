@@ -1,0 +1,22 @@
+Teste utilizando capybara
+
+--criar pasta 
+criar pasta capy
+
+cmd
+--criar gemfile dentro do projeto
+comando: bundle init
+
+caso bundle não funcionar, instalar o comando para instalar o bundle
+comando: gem install bundler
+
+adicionar no arquivo gemfile as ferramentas que serão utilizadas
+capybara
+rspec
+selenium-webdriver
+ffi - interface de funções externas
+
+Acesse o site rubygems.org
+
+
+
