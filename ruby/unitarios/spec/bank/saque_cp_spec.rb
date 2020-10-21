@@ -50,6 +50,7 @@ describe ContaPoupanca do
             end
             it 'então exibe mensagem' do
                 expect(@cp.mensagem).to eql 'Limite máximo por saque é de R$ 500'
+                #expect(@cp.mensagem).to eql 'Limite máximo por saque é de R$ 500'
             end
             it 'e o saldo permanece' do 
                 expect(@cp.saldo).to eql 1000.00

@@ -20,7 +20,7 @@ comando:
 - rspec spec\nomearquivo_spec.rb -fd
     roda o arquivo específico mas atribuído ao comando -fd (com detalhamento).
 
-- rspec --format html --out resport.html
+- rspec --format html --out report.html
     este comando executa o teste e no final gera um report no formato html dentro da pasta da pasta do projeto.
 
 : gerar relatórios no formato junit
